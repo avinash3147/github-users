@@ -1,4 +1,9 @@
-import { Info, Navbar, Search, User } from "../components";
+import { 
+    Info, 
+    Navbar, 
+    Repos, 
+    Search, 
+    User } from "../components";
 
 const Dashboard = () => {
     return (
@@ -7,6 +12,7 @@ const Dashboard = () => {
             <Search />
             <Info />
             <User />
+            <Repos />
         </main>
     )
 }
